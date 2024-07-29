@@ -1,7 +1,7 @@
 ﻿
 namespace EjercicioHerencia
 {
-    internal class Operaciones
+    public class Operaciones
     {
         public double AreaCirculo (double radio)
         {

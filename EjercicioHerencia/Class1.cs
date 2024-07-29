@@ -1,8 +1,6 @@
-﻿
-
-namespace EjercicioHerencia
+﻿namespace EjercicioHerencia
 {
-    internal class Class1 : Operaciones
+    public class Class1 : Operaciones
     {
         public void Imprimir(double radio, double lado)
         {
@@ -10,9 +8,9 @@ namespace EjercicioHerencia
             double Cubo = VolCubo(lado);
             double circunferencia = LonCircuferencia(radio);
 
-            Console.WriteLine($"Area del circulo: {AreaCirculo}");
-            Console.WriteLine($"Volumen Cubo: {VolCubo}");
-            Console.WriteLine($"Longitud Circunferncia: {LonCircuferencia}");
+            Console.WriteLine($"Area del circulo: {circulo}");
+            Console.WriteLine($"Volumen Cubo: {Cubo}");
+            Console.WriteLine($"Longitud Circunferencia: {circunferencia}");
         }
     }
 }
